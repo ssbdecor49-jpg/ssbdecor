@@ -929,7 +929,11 @@ display:none;
 }
 
 .menu-toggle{
-display:block;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    z-index: 9999;
 }
 
 .hero{
