@@ -1663,7 +1663,12 @@ grid-template-columns:1fr;
 #navbar.show{
     display:block !important;
 }
-
+#navbar ul{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    padding:20px
+}
 #navbar{
     display:none;
     position:absolute;
