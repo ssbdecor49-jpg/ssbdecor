@@ -1005,7 +1005,25 @@ font-size:32px;
 font-size:14px;
 letter-spacing:2px;
 }
+#navbar.show{
+    display:block !important;
+}
 
+#navbar{
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#222;
+    padding:20px;
+    z-index:9999;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
 .btn-primary,
 .btn-secondary{
 width:100%;
